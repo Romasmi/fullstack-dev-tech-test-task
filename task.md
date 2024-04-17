@@ -5,15 +5,15 @@
       - Pure PHP;
       - PSR-12;
 2. Create a database structure and put migrations in /database/migrations folder;
-   - Example of migration is in /database/migration/1713358478_example.sql;
+   - Example of migration is provided in the /database/migrations/1713358478_example.sql file;
 4. Create a web page to display the courses and categories;
-   - Design layouts are in /design folder;
+   - Design layouts are located in the /design folder;
    - Requirements:
       - Any front-end framework can be used, but pure technologies are preferred;
-   - Layout key features:
-      - By default all courses should be displayed;
-      - By click on the category, only courses from this category should be displayed;
-      - On desktop layout, title and description are truncate with ellipsis;
+   - Layout key features include:
+      - By default, all courses should be displayed;
+      - By clicking on a category, only courses from that category should be displayed;
+      - On the desktop layout, titles and descriptions are truncated with ellipses;
    - Restrictions:
-      - Each course should have only 1 category;
-      - Max depth of categories tree is 4;
+      - Each course should belong to only one category;
+      - Max depth of the categories tree is 4;

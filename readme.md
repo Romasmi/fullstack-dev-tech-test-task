@@ -12,6 +12,6 @@ DB host: http://db.cc.localhost
 Traefik dashboard: http://127.0.0.1:8080/dashboard/#/
 
 
-DB credentials - look at docker-compose.yml
+DB credentials - look at the docker-compose.yml
 
-Api docker in swagger.yml
+Api docs are in swagger.yml
