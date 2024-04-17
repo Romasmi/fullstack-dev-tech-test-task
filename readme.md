@@ -16,6 +16,8 @@
         - By default, all courses should be displayed;
         - By clicking on a category, only courses from that category should be displayed;
         - On the desktop layout, titles and descriptions are truncated with ellipses;
+        - If category has courses the count of courses should be displayed and value should include count of courses in child categories;
+        - Each course card should display name of the main category of the course;
     - Restrictions:
         - Each course should belong to only one category;
         - Max depth of the categories tree is 4;
