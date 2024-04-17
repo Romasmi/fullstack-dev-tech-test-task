@@ -32,7 +32,7 @@ services:
     ports:
       - 8001:3306
 
-  web:
+  api:
     image: php:8.3-apache
     container_name: api
     depends_on:
@@ -44,3 +44,15 @@ services:
     hostname: api.cc.localhost
     labels:
       - traefik.http.routers.api.rule=Host(`api.cc.localhost`)
+  front:
+    image: php:8.3-apache
+    container_name: front
+    depends_on:
+      - api
+    volumes:
+      - ./front_end/:/var/www/html/
+    stdin_open: true
+    tty: true
+    hostname: api.cc.localhost
+    labels:
+      - traefik.http.routers.front.rule=Host(`cc.localhost`)
