@@ -7,6 +7,7 @@
         - PSR-12;
 2. Create a database structure and put migrations in /database/migrations folder;
     - Example of migration is provided in the /database/migrations/1713358478_example.sql file;
+    - Mock data is located in the /data folder;
 4. Create a web page to display the courses and categories;
     - Design layouts are located in the /design folder;
     - Requirements:
